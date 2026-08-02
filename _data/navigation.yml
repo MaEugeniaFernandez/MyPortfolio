@@ -1,0 +1,8 @@
+# This is a demo entry to prove the accordion submenu opens/closes.
+# It will be replaced with real modules in the full build.
+- title: Home
+  url: /
+- title: Modules
+  children:
+    - title: Example Module
+      url: /modules/example/

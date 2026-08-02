@@ -1,0 +1,32 @@
+<!-- Menu -->
+	<nav id="menu">
+		<header class="major">
+			<h2>Menu</h2>
+		</header>
+		<ul>
+			{% for item in site.data.navigation %}
+			{% if item.children %}
+			<li>
+				<span class="opener">{{ item.title }}</span>
+				<ul>
+					{% for child in item.children %}
+					<li><a href="{{ child.url | relative_url }}">{{ child.title }}</a></li>
+					{% endfor %}
+				</ul>
+			</li>
+			{% else %}
+			<li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+			{% endif %}
+			{% endfor %}
+		</ul>
+	</nav>
+
+<!-- Get in touch -->
+	<section>
+		<header class="major">
+			<h2>Get in touch</h2>
+		</header>
+		<ul class="contact">
+			<li class="icon solid fa-envelope"><a href="mailto:[TO WRITE: contact email]">[TO WRITE: contact email]</a></li>
+		</ul>
+	</section>

@@ -1,2 +1,6 @@
-title: My Portfolio
-theme: jekyll-theme-cayman
+title: "[TO WRITE: your name]'s Portfolio"
+baseurl: "/MyPortfolio"
+markdown: kramdown
+
+exclude:
+  - README.md
