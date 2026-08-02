@@ -7,7 +7,7 @@
 			{% for item in site.data.navigation %}
 			{% if item.children %}
 			<li>
-				<span class="opener">{{ item.title }}</span>
+				<span class="opener active">{{ item.title }}</span>
 				<ul>
 					{% for child in item.children %}
 					<li><a href="{{ child.url | relative_url }}">{{ child.title }}</a></li>
