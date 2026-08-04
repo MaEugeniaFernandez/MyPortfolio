@@ -3,5 +3,12 @@ baseurl: "/MyPortfolio"
 markdown: kramdown
 permalink: pretty
 
+# Explicitly disables the github-pages gem's default fallback to
+# jekyll-theme-primer (a gem theme) — this repo builds Editorial
+# from its own copied layouts/includes/assets instead.
+theme:
+
 exclude:
   - README.md
+  - Gemfile
+  - Gemfile.lock

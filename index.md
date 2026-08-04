@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Home
+title: About me
 ---
 
 [TO WRITE: short intro for your name / course name]
