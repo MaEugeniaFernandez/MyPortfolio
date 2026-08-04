@@ -1,3 +1,6 @@
+---
+permalink: /assets/css/main.css
+---
 @import 'libs/vars';
 @import 'libs/functions';
 @import 'libs/mixins';
@@ -60,3 +63,7 @@
 	@import 'layout/banner';
 	@import 'layout/footer';
 	@import 'layout/menu';
+
+// Colour treatment (Stellar palette, layered on top - see file for details).
+
+	@import 'stellar-overrides';

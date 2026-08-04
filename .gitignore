@@ -6,6 +6,9 @@ _site/
 .bundle/
 vendor/
 
+# Personal scratch files not meant for the published site
+Markdown format example.md
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

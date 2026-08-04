@@ -12,3 +12,6 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+
+sass:
+  sass_dir: assets/sass

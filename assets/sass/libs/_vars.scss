@@ -32,13 +32,15 @@
 	);
 
 // Palette.
+// Recolored to use HTML5 UP Stellar's palette (html5up.net/stellar) in place
+// of Editorial's original coral accent. Structure/classes are unchanged.
 	$palette: (
 		bg:					#ffffff,
-		bg-alt:				#f5f6f7,
+		bg-alt:				#f7f7f7,
 		fg:					#7f888f,
 		fg-bold:			#3d4449,
 		fg-light:			#9fa3a6,
-		border:				rgba(210,215,217,0.75),
-		border-bg:			transparentize(#e6ebed, 0.75),
-		accent:				#f56a6a
+		border:				#dddddd,
+		border-bg:			rgba(222,222,222,0.25),
+		accent:				#5f4d93
 	);

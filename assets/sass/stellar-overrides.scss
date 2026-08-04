@@ -1,0 +1,133 @@
+////
+//// Stellar-inspired colour treatment (html5up.net/stellar)
+//// Layered on top of Editorial's own styles at the end of the Sass build,
+//// so it can override earlier rules without changing Editorial's markup,
+//// classes, or layout. Uses Stellar's actual palette values throughout.
+////
+
+// Extra Stellar tones beyond the single $palette accent (which is already
+// set to Stellar's bg2, #5f4d93, in libs/_vars.scss).
+$stellar-pink:   #efa8b0; // accent1
+$stellar-purple: #a89cc8; // accent3
+$stellar-coral:  #e37682; // bg1
+$stellar-deep:   #5f4d93; // bg2
+$stellar-dark:   #935d8c; // bg
+
+// Main content background - a barely-there pink tint instead of flat
+// white, kept light enough that body text stays fully readable.
+body {
+	background: mix($stellar-pink, #ffffff, 6%);
+}
+
+// All headings in the main content - a darker, more saturated purple.
+h1, h2, h3, h4, h5, h6 {
+	color: darken(saturate($stellar-dark, 15%), 15%);
+}
+
+// Header - gradient rule instead of a flat line.
+#header {
+	border-bottom-width: 5px;
+	border-bottom-style: solid;
+	border-image: linear-gradient(90deg, $stellar-coral, $stellar-deep) 1;
+}
+
+// Section headers ("## Heading") in the main content - matching gradient.
+header.major > :last-child {
+	border-bottom-width: 3px !important;
+	border-bottom-style: solid;
+	border-image: linear-gradient(90deg, $stellar-coral, $stellar-deep) 1;
+}
+
+// Sidebar - full dark theme using Stellar's own bg colour, light text,
+// and pink highlights on hover/active.
+#sidebar {
+	background-color: $stellar-dark;
+
+	h1, h2, h3, h4, h5, h6 {
+		color: #ffffff;
+	}
+
+	> .inner > * {
+		border-bottom-color: rgba(255, 255, 255, 0.2);
+	}
+
+	> .inner > .alt {
+		background-color: rgba(255, 255, 255, 0.075);
+	}
+
+	#menu {
+		ul {
+			color: #ffffff;
+
+			a, span {
+				&:hover {
+					color: $stellar-pink;
+				}
+
+				&.opener {
+					&:before {
+						color: rgba(255, 255, 255, 0.85);
+					}
+
+					&:hover:before {
+						color: $stellar-pink;
+					}
+				}
+			}
+		}
+
+		> ul > li {
+			border-top-color: rgba(255, 255, 255, 0.2);
+
+			> ul {
+				color: rgba(255, 255, 255, 0.85);
+			}
+		}
+	}
+
+	#footer .copyright {
+		color: rgba(255, 255, 255, 0.85);
+
+		a:hover {
+			color: $stellar-pink;
+		}
+	}
+}
+
+// Buttons - solid coral-pink fill instead of an outline, deepening to
+// purple on press, matching Stellar's own bold call-to-action style.
+.button {
+	background-color: $stellar-coral;
+	box-shadow: none;
+	color: #ffffff !important;
+
+	&:hover {
+		background-color: lighten($stellar-coral, 5);
+	}
+
+	&:active {
+		background-color: $stellar-deep;
+	}
+}
+
+// Blockquotes - pink border and a soft tinted wash instead of plain grey.
+blockquote {
+	background-color: transparentize($stellar-pink, 0.9);
+	border-left-color: $stellar-coral;
+}
+
+// Tables - tinted header rule and alternating rows in the palette.
+table {
+	thead {
+		border-bottom-color: $stellar-deep;
+		border-bottom-width: 2px;
+	}
+
+	th {
+		color: $stellar-deep;
+	}
+
+	tbody tr:nth-child(2n + 1) {
+		background-color: transparentize($stellar-purple, 0.9);
+	}
+}
