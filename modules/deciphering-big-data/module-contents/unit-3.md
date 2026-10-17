@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Unit 3
+title: "Unit 3: Data Collection and Storage"
 ---
 
 <ul class="actions">

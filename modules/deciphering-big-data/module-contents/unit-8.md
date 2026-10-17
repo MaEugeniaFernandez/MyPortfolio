@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Unit 8
+title: "Unit 8: Compliance and Regulatory Framework for Managing Data"
 ---
 
 <ul class="actions">

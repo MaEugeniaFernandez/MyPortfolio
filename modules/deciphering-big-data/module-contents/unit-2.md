@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Unit 2
+title: "Unit 2: Introduction to Data Types and Formats"
 ---
 
 <ul class="actions">

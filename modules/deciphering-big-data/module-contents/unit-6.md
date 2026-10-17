@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Unit 6
+title: "Unit 6: Database Design and Normalisation"
 ---
 
 <ul class="actions">

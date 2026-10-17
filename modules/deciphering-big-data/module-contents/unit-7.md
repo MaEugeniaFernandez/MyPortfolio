@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Unit 7
+title: "Unit 7: Constructing Normalised Tables and Database Build"
 ---
 
 <ul class="actions">

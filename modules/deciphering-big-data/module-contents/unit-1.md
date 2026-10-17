@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Unit 1
+title: "Unit 1: Introduction to Big Data Technologies and Data Management"
 ---
 
 <ul class="actions">

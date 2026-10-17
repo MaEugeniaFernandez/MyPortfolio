@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Unit 5
+title: "Unit 5: Data Cleaning and Automating Data Collections"
 ---
 
 <ul class="actions">
