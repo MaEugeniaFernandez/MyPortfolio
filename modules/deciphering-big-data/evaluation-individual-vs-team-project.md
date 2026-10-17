@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Learning Outcomes
+title: Evaluation of Individual Project vs Team Project
 ---
 
 <ul class="actions">
