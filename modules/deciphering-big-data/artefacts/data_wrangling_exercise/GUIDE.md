@@ -197,11 +197,11 @@ Answer: Less than once a week
 
 ### Files
 
-- [mn.csv]({{ '/modules/deciphering-big-data/artefacts/data_wrangling_exercise/mn.csv' | relative_url }}) – original survey dataset
-- [mn_headers.csv]({{ '/modules/deciphering-big-data/artefacts/data_wrangling_exercise/mn_headers.csv' | relative_url }}) – reference file with the English names
-- [mn_renamed.csv]({{ '/modules/deciphering-big-data/artefacts/data_wrangling_exercise/mn_renamed.csv' | relative_url }}) – dataset with the replaced headers
-- [replacing_headers.py]({{ '/modules/deciphering-big-data/artefacts/data_wrangling_exercise/replacing_headers.py' | relative_url }}) – script 1
-- [user_friendly_output.py]({{ '/modules/deciphering-big-data/artefacts/data_wrangling_exercise/user_friendly_output.py' | relative_url }}) – script 2
+- [mn.csv](https://github.com/MaEugeniaFernandez/MyPortfolio/blob/main/modules/deciphering-big-data/artefacts/data_wrangling_exercise/mn.csv) – original survey dataset
+- [mn_headers.csv](https://github.com/MaEugeniaFernandez/MyPortfolio/blob/main/modules/deciphering-big-data/artefacts/data_wrangling_exercise/mn_headers.csv) – reference file with the English names
+- [mn_renamed.csv](https://github.com/MaEugeniaFernandez/MyPortfolio/blob/main/modules/deciphering-big-data/artefacts/data_wrangling_exercise/mn_renamed.csv) – dataset with the replaced headers
+- [replacing_headers.py](https://github.com/MaEugeniaFernandez/MyPortfolio/blob/main/modules/deciphering-big-data/artefacts/data_wrangling_exercise/replacing_headers.py) – script 1
+- [user_friendly_output.py](https://github.com/MaEugeniaFernandez/MyPortfolio/blob/main/modules/deciphering-big-data/artefacts/data_wrangling_exercise/user_friendly_output.py) – script 2
 
 <ul class="actions">
 	<li><a href="{{ '/modules/deciphering-big-data/module-contents/unit-4/' | relative_url }}" class="button">Back to Unit 4</a></li>

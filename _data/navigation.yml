@@ -4,3 +4,24 @@
   children:
     - title: Deciphering Big Data
       url: /modules/deciphering-big-data/
+      children:
+        - title: Unit 1
+          url: /modules/deciphering-big-data/module-contents/unit-1/
+        - title: Unit 2
+          url: /modules/deciphering-big-data/module-contents/unit-2/
+        - title: Unit 3
+          url: /modules/deciphering-big-data/module-contents/unit-3/
+        - title: Unit 4
+          url: /modules/deciphering-big-data/module-contents/unit-4/
+        - title: Unit 5
+          url: /modules/deciphering-big-data/module-contents/unit-5/
+        - title: Unit 6
+          url: /modules/deciphering-big-data/module-contents/unit-6/
+        - title: Unit 7
+          url: /modules/deciphering-big-data/module-contents/unit-7/
+        - title: Unit 8
+          url: /modules/deciphering-big-data/module-contents/unit-8/
+        - title: Unit 9
+          url: /modules/deciphering-big-data/module-contents/unit-9/
+        - title: Unit 10
+          url: /modules/deciphering-big-data/module-contents/unit-10/
