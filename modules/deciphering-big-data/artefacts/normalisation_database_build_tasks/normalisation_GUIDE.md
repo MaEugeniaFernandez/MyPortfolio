@@ -1,4 +1,7 @@
-# Normalisation Task
+---
+layout: page
+title: "Unit 7 - Normalisation Task"
+---
 
 For this exercise we were given a table of student data in un-normalised form (`DBD_PCOM7E Table.xlsx`) and asked to normalise it to Third Normal Form (3NF), showing each step of the process: 1NF, 2NF and 3NF.
 
@@ -177,3 +180,16 @@ STUDENT ──< ENROLMENT >── COURSE >── TEACHER
                 v
            EXAM_BOARD
 ```
+
+---
+
+### Files
+
+- [DBD_PCOM7E Table.xlsx]({{ '/modules/deciphering-big-data/artefacts/normalisation_database_build_tasks/DBD_PCOM7E%20Table.xlsx' | relative_url }}) – un-normalised student data table
+- [create_database.sql]({{ '/modules/deciphering-big-data/artefacts/normalisation_database_build_tasks/create_database.sql' | relative_url }}) – script that builds the database
+- [school.db]({{ '/modules/deciphering-big-data/artefacts/normalisation_database_build_tasks/school.db' | relative_url }}) – the resulting SQLite database
+- [test_referential_integrity.sql]({{ '/modules/deciphering-big-data/artefacts/normalisation_database_build_tasks/test_referential_integrity.sql' | relative_url }}) – referential integrity tests
+
+<ul class="actions">
+	<li><a href="{{ '/modules/deciphering-big-data/module-contents/unit-7/' | relative_url }}" class="button">Back to Unit 7</a></li>
+</ul>

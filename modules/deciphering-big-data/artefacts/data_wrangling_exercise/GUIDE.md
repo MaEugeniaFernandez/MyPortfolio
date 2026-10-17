@@ -192,3 +192,17 @@ Answer: Less than once a week
 - **Not every code had an English label.** Eight columns (listed above) are missing from `mn_headers.csv`, so they kept their original codes.
 - **Some English names appear twice.** For example, `HH1` and `MWM1` are both labelled *"Cluster number"* in `mn_headers.csv`. The file still saves correctly, but duplicated column names can cause confusion in later analysis.
 - **Some whole numbers turned into decimals.** For example, *"Highest grade completed at that level"* shows `31.0` instead of `31`. This happens because pandas stores numbers as decimals in any column that also has empty cells, and keeps them that way when saving the new file.
+
+---
+
+### Files
+
+- [mn.csv]({{ '/modules/deciphering-big-data/artefacts/data_wrangling_exercise/mn.csv' | relative_url }}) – original survey dataset
+- [mn_headers.csv]({{ '/modules/deciphering-big-data/artefacts/data_wrangling_exercise/mn_headers.csv' | relative_url }}) – reference file with the English names
+- [mn_renamed.csv]({{ '/modules/deciphering-big-data/artefacts/data_wrangling_exercise/mn_renamed.csv' | relative_url }}) – dataset with the replaced headers
+- [replacing_headers.py]({{ '/modules/deciphering-big-data/artefacts/data_wrangling_exercise/replacing_headers.py' | relative_url }}) – script 1
+- [user_friendly_output.py]({{ '/modules/deciphering-big-data/artefacts/data_wrangling_exercise/user_friendly_output.py' | relative_url }}) – script 2
+
+<ul class="actions">
+	<li><a href="{{ '/modules/deciphering-big-data/module-contents/unit-4/' | relative_url }}" class="button">Back to Unit 4</a></li>
+</ul>
