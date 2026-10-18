@@ -161,3 +161,21 @@ pre {
 pre code {
 	white-space: pre;
 }
+
+// Collapsible modules inside the sidebar's "Modules" section.
+// The module name stays a link; the arrow on the right toggles its units.
+#menu ul ul .module-opener {
+	a {
+		display: inline;
+		padding: 0;
+	}
+
+	& + ul {
+		display: none;
+		padding-left: 1em;
+	}
+
+	&.active + ul {
+		display: block;
+	}
+}

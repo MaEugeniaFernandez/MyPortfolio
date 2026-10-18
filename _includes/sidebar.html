@@ -10,15 +10,18 @@
 				<span class="opener active">{{ item.title }}</span>
 				<ul>
 					{% for child in item.children %}
-					<li><a href="{{ child.url | relative_url }}">{{ child.title }}</a>
-						{% if child.children %}
+					{% if child.children %}
+					<li>
+						<span class="opener module-opener{% unless page.url == '/' %} active{% endunless %}"><a href="{{ child.url | relative_url }}">{{ child.title }}</a></span>
 						<ul>
 							{% for sub in child.children %}
 							<li><a href="{{ sub.url | relative_url }}">{{ sub.title }}</a></li>
 							{% endfor %}
 						</ul>
-						{% endif %}
 					</li>
+					{% else %}
+					<li><a href="{{ child.url | relative_url }}">{{ child.title }}</a></li>
+					{% endif %}
 					{% endfor %}
 				</ul>
 			</li>

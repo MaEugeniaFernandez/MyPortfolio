@@ -245,11 +245,15 @@
 
 				$this.on('click', function(event) {
 
+					// A link inside the opener (e.g. a module name) navigates normally.
+						if ($(event.target).closest('a').length)
+							return;
+
 					// Prevent default.
 						event.preventDefault();
 
-					// Toggle.
-						$menu_openers.not($this).removeClass('active');
+					// Toggle (only siblings at the same level close, never the parent).
+						$this.closest('ul').children('li').children('.opener').not($this).removeClass('active');
 						$this.toggleClass('active');
 
 					// Trigger resize (sidebar lock).
