@@ -1,4 +1,7 @@
-# API Security Requirements Specification Task
+---
+layout: page
+title: "Unit 10 - API Security Requirements Specification Task"
+---
 
 For this task we were asked to evaluate the security requirements of an API of our choice, and to write a brief specification that reduces the risks of using it to connect a Python program with XML, JSON and SQL.
 
@@ -108,3 +111,7 @@ Information Commissioner's Office (n.d.) *A guide to the data protection princip
 Kazil, J. and Jarmul, K. (2016) *Data Wrangling with Python*. Sebastopol, CA: O'Reilly Media.
 
 OWASP (2023) *OWASP API Security Top 10 – 2023*. Available at: https://owasp.org/API-Security/editions/2023/en/0x11-t10/ (Accessed: 14 October 2026).
+
+<ul class="actions">
+	<li><a href="{{ '/modules/deciphering-big-data/module-contents/unit-10/' | relative_url }}" class="button">Back to Unit 10</a></li>
+</ul>

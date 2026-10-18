@@ -1,4 +1,7 @@
-# Unit 3 - Web Scraping Exercise
+---
+layout: page
+title: "Unit 3 - Web Scraping Exercise"
+---
 
 For this exercise we were asked to scrape a website of our choosing for the keyword *"Data Scientist"* and save the results as a JSON file, using the Python modules `requests` and `beautifulsoup4`.
 
@@ -118,3 +121,14 @@ Results saved to data_scientist_jobs.json
     }
 ]
 ```
+
+---
+
+### Files
+
+- [scrape_data_scientist.py](https://github.com/MaEugeniaFernandez/MyPortfolio/blob/main/modules/deciphering-big-data/artefacts/web_scraping_exercise/scrape_data_scientist.py) – web scraping script
+- [data_scientist_jobs.json](https://github.com/MaEugeniaFernandez/MyPortfolio/blob/main/modules/deciphering-big-data/artefacts/web_scraping_exercise/data_scientist_jobs.json) – scraped results
+
+<ul class="actions">
+	<li><a href="{{ '/modules/deciphering-big-data/module-contents/unit-3/' | relative_url }}" class="button">Back to Unit 3</a></li>
+</ul>

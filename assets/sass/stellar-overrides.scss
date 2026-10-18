@@ -94,19 +94,32 @@ header.major > :last-child {
 	}
 }
 
-// Buttons - solid coral-pink fill instead of an outline, deepening to
-// purple on press, matching Stellar's own bold call-to-action style.
-.button {
-	background-color: $stellar-coral;
+// Buttons - pale pink fill with deep purple text, deepening to purple
+// with white text on press. Covers every button style Editorial defines.
+$button-pale: $stellar-pink;   // #efa8b0
+$button-text: #4a3a75;
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button,
+.button,
+.button.primary,
+input[type="submit"].primary,
+input[type="reset"].primary,
+input[type="button"].primary,
+button.primary {
+	background-color: $button-pale;
 	box-shadow: none;
-	color: #ffffff !important;
+	color: $button-text !important;
 
 	&:hover {
-		background-color: lighten($stellar-coral, 5);
+		background-color: lighten($button-pale, 4);
 	}
 
 	&:active {
 		background-color: $stellar-deep;
+		color: #ffffff !important;
 	}
 }
 
