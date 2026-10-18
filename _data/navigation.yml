@@ -5,6 +5,14 @@
     - title: Deciphering Big Data
       url: /modules/deciphering-big-data/
       children:
+        - title: Module learning outcomes
+          url: /modules/deciphering-big-data/module-learning-outcomes/
+        - title: Meeting notes
+          url: /modules/deciphering-big-data/meeting-notes/
+        - title: Evaluation of individual project vs team project
+          url: /modules/deciphering-big-data/evaluation-individual-vs-team-project/
+        - title: Professional skills matrix and action plan
+          url: /modules/deciphering-big-data/professional-skills-matrix-and-action-plan/
         - title: Unit 1
           url: /modules/deciphering-big-data/module-contents/unit-1/
         - title: Unit 2
