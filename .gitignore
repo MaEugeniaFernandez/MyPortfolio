@@ -223,3 +223,6 @@ __marimo__/
 
 # RStudio command history
 .Rhistory
+
+# Unblurred screenshot originals — never publish
+_originals/
