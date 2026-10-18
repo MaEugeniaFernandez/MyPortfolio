@@ -144,3 +144,20 @@ table {
 		background-color: transparentize($stellar-purple, 0.9);
 	}
 }
+
+// Wide content fix - long code lines (e.g. in the Unit 4 guide) were
+// stretching the main column and squashing the sidebar. Letting the main
+// column shrink and giving code blocks their own horizontal scroll keeps
+// the layout intact; the code itself is unchanged.
+#main {
+	min-width: 0;
+}
+
+pre {
+	max-width: 100%;
+	overflow-x: auto;
+}
+
+pre code {
+	white-space: pre;
+}

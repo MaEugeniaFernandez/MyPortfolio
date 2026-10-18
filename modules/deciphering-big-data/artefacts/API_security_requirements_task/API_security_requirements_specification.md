@@ -29,7 +29,7 @@ Python program ──HTTPS + API key──► Companies House API ──► JSON
 - **The API key**: it identifies my program, so others must not be able to use it.
 - **Personal data**: director names, birth dates and addresses are public, but they are still personal data under UK GDPR.
 - **The database**: it holds all the collected data in one place.
-- **The service itself**: the API allows only 600 requests every 5 minutes, and programs that keep breaking this limit can be banned (Companies House, n.d.).
+- **The service itself**: the API allows only 600 requests every 5 minutes, and programs that keep breaking this limit can be banned (Companies House, no date).
 
 ---
 
@@ -102,15 +102,15 @@ cursor.execute(
 
 ## Reference List
 
-Companies House (n.d.) *Rate limiting*. Available at: https://developer-specs.company-information.service.gov.uk/guides/rateLimiting (Accessed: 14 October 2026).
+Companies House (no date) *Rate limiting*. Available at: [https://developer-specs.company-information.service.gov.uk/guides/rateLimiting](https://developer-specs.company-information.service.gov.uk/guides/rateLimiting) (Accessed: 14 October 2026).
 
 ## Bibliography
 
-Information Commissioner's Office (n.d.) *A guide to the data protection principles*. Available at: https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/ (Accessed: 14 October 2026).
+Information Commissioner's Office (2026) *A guide to the data protection principles*. Available at: [https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/) (Accessed: 14 October 2026).
 
 Kazil, J. and Jarmul, K. (2016) *Data Wrangling with Python*. Sebastopol, CA: O'Reilly Media.
 
-OWASP (2023) *OWASP API Security Top 10 – 2023*. Available at: https://owasp.org/API-Security/editions/2023/en/0x11-t10/ (Accessed: 14 October 2026).
+OWASP (2023) *OWASP API Security Top 10 – 2023*. Available at: [https://owasp.org/API-Security/editions/2023/en/0x11-t10/](https://owasp.org/API-Security/editions/2023/en/0x11-t10/) (Accessed: 14 October 2026).
 
 <ul class="actions">
 	<li><a href="{{ '/modules/deciphering-big-data/module-contents/unit-10/' | relative_url }}" class="button">Back to Unit 10</a></li>
