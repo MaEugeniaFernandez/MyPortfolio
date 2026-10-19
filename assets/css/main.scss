@@ -1,3 +1,4 @@
 ---
 ---
-@import "main";
+// Explicit path: a bare "main" would import this file itself under Jekyll 4.
+@import "../sass/main";

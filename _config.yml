@@ -9,10 +9,22 @@ permalink: pretty
 theme:
 
 exclude:
+  - MyPortfolio_website.zip
   - README.md
   - Gemfile
   - Gemfile.lock
+  - Markdown format example.md
 
 sass:
   sass_dir: assets/sass
   sourcemap: never
+  # Local Jekyll 4 only: hides Dart Sass deprecation notices about Editorial's
+  # original (unchanged) Sass. GitHub Pages' older Sass ignores this setting.
+  silence_deprecations:
+    - import
+    - global-builtin
+    - color-functions
+    - slash-div
+    - elseif
+    - if-function
+    - new-global

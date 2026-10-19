@@ -226,3 +226,6 @@ __marimo__/
 
 # Unblurred screenshot originals — never publish
 _originals/
+
+# Submission package — not part of the site
+MyPortfolio_website.zip
